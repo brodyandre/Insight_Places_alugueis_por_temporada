@@ -38,3 +38,6 @@ Este documento reúne as **principais perguntas de negócio** que podem ser resp
 - Quais cidades têm alta demanda de reservas mas baixa oferta de hospedagens?
 - Existe diferença de preço médio entre regiões?
 - É mais vantajoso incentivar o cadastro de casas, apartamentos ou hotéis em determinada região?
+___
+
+  ## As respostas para as perguntas acima estão na pasta: scripts_base/README.md
