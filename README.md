@@ -43,8 +43,9 @@ Insight_Places_alugueis_por_temporada/
    ```bash
    git clone https://github.com/brodyandre/Insight_Places_alugueis_por_temporada.git
    ```
-2. Importe os scripts de base (`/scripts_base`) em seu MySQL para criar e popular o banco.
-3. Execute as consultas em `/scripts` para responder às perguntas de negócio.
+2. Execute as consultas em `/scripts` para estudar os dados. São consultas simples.
+3. Na pasta scripts de base (`/scripts_base`) há instruções para carregarmos dos dados para o seu MySQL WorkBench bem como instruções para criar e popular o banco. Nessa pasta temos todas as respostas para as perguntas de negócios. São scripts mais complexos 
+
 
 ---
 
