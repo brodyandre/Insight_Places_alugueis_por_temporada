@@ -1,5 +1,5 @@
 # Criando o BANCO DE DADOS NO MySQL WORKBENCH 8 
-### Rode o script abaixo para que o banco seja criado
+### Rode no MySQL WorkBench o script abaixo para que o banco seja criado
 ```sql
 -- Drop database if exists
 DROP DATABASE IF EXISTS insightplaces;
