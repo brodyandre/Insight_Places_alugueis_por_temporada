@@ -63,6 +63,9 @@ FOREIGN KEY (cliente_id) REFERENCES clientes(cliente_id),
 FOREIGN KEY (hospedagem_id) REFERENCES hospedagens(hospedagem_id)
 );
 ```
+# Como carregar os arquivos csv para o banco de dados
+
+Para popularmos as tabelas do nosso banco de dados, devemos na interface do MySQL WorkBench na guia da esquerda clicarmos com o botão direito do mouse sobre a tabela de "enderecos". Aparecerá um menu onde nos escolheremos a opção: "Table Data Import Wizard". Na janela que se abre, indicamos o local onde a pasta com on nossos arquivos csv está localizada (lembre-se que nesse passo você ja deve ter clonado este repositório para a sua máquina local). Selecione o diretório onde os arquivos estão e clique em "next". OBS.: carregue os arquivos csv exatamente na ordem que eles estão numerado, sendo enderecos o primeiro. Devido as tabelas possuirem relacionamentos isso se faz necessário. Na sequencia, na próxima tela que se abre, deixe a opção "use existing table" selecionada. Clique em next, na sequencia mantenha o "encoding" como o padrão "utf-8" mantendo inalterado todo o resto. Clique em next e em next novamente. Pronto... os dados estarão carregados. Repita este processo para as demais tabelas.
 
 # Os Scripts abaixo respondem as seguintes perguntas de negócio da pasta "docs":
 
